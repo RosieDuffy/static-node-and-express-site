@@ -6,9 +6,9 @@ html(lang="en" dir="ltr")
     meta(name='viewport', content='width=device-width, initial-scale=1.0')
     link(rel='icon' type='image/x-icon' href='/static/img/favicon-32x32.png')
     title Portfolio Site
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@300&family=Poppins:wght@100;400;700&display=swap" rel="stylesheet">
+    link(rel='preconnect', href='https://fonts.googleapis.com')
+    link(rel='preconnect', href='https://fonts.gstatic.com', crossorigin='')
+    link(href='https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;700&display=swap', rel='stylesheet')
     link(rel='stylesheet', href='/static/css/normalize.css')
     link(rel='stylesheet', href='/static/css/styles.css')
 
@@ -20,13 +20,13 @@ html(lang="en" dir="ltr")
           img.thumbnail(src='/static/img/rosiesquaresmall2.jpg', alt='')
         .dev-intro-box
 
-          //- Replace with your name
+          
           h5 Rosie Duffy 
 
-          //- Replace with description of who you are, what you do, and why you are so awesome
+          
           p Full Stack Javascript Developer
 
-          //- Add path from your '/about' route handler to the href below
+          
           a(href='/about') Learn More &rarr;
 
     .wrapper
@@ -34,7 +34,7 @@ html(lang="en" dir="ltr")
         .header-info-box
           button#menu-icon.menu-icon(type='button' data-toggle='my-info')
 
-          //- Replace with your name — this is for the mobile layout
+          
           span Rosie Duffy
 
       block content
