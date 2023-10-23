@@ -5,10 +5,11 @@ block content
   article.portfolio-intro
 
     //- Replace with your own heading like 'My Portfolio', or 'Hey, Potential Employers', or 'Let's make the web great together!' 
-    h1 Heading
+    h1 Rosie's Portfolio
 
     //- Replace with a description for your portfolio, what this project is, it's purpose, what it's supposed to accomplish, etc. 
-    p Portfolio description
+    p Hello! Welcome to my portfolio, take a look around at some of my completed projects. 
+    
 
 
   article.portfolio-project-thumbs
@@ -17,9 +18,9 @@ block content
       each project in projects
         .cell
           a(href=`project/${project.id}`)
-            img.thumbnail(src=`${project.image_urls[0]}`, alt='')
+            img.thumbnail(src=`${project.homepage_img_url}`, alt='')
             h5=project.project_name
-
+  
       //- Use the Pug `each` iterator to loop over the projects in your data file  
       
         //- Use the example Pug code below and interpolated template literals as needed to dynamically generate:

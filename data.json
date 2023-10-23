@@ -8,10 +8,10 @@
             "technologies": ["Javascript", "HTML", "CSS"],
             "live_link": "https://rosieduffy.github.io/data-pagination-and-filtering/",
             "github_link": "https://github.com/RosieDuffy/data-pagination-and-filtering",
-            "image_urls":["static/img/data-pagination-homepage.png", 
-                          "static/img/data-pagination-screenshot.png",
-                          "static/img/data-pagination-screenshot2.png",
-                          "static/img/data-pagination-screenshot3.png"]
+            "homepage_img_url":"/static/img/data-pagination-homepage.png",
+            "image_urls":[ "/static/img/data-pagination-screenshot.png",
+                          "/static/img/data-pagination-screenshot2.png",
+                          "/static/img/data-pagination-screenshot3.png"]
 
         },
         {
@@ -21,9 +21,11 @@
             "technologies": ["Javascript", "HTML", "CSS"],
             "live_link": "https://rosieduffy.github.io/random-quote-generator/",
             "github_link": "https://github.com/RosieDuffy/random-quote-generator",
-            "image_urls":["static/img/random-quote-generator-homepage.png", 
-                          "static/img/random-quote-generator-screenshot.png",
-                          "static/img/random-quote-generator-screenshot2.png"]
+            "homepage_img_url": "/static/img/random-quote-generator-homepage.png", 
+            "image_urls":["/static/img/random-quote-generator-screenshot.png",
+                          "/static/img/random-quote-generator-screenshot2.png",
+                          "/static/img/random-quote-generator-screenshot3.png",
+                          "/static/img/random-quote-generator-screenshot4.png"]
 
         },
         {
@@ -33,10 +35,11 @@
             "technologies": ["Javascript", "HTML", "CSS"],
             "live_link": "https://rosieduffy.github.io/oop-game-show-app/",
             "github_link": "https://github.com/RosieDuffy/oop-game-show-app",
-            "image_urls":["static/img/oop-gameshow-screenshot6.png", 
-                          "static/img/oop-gameshow-screenshot2.png",
-                          "static/img/oop-gameshow-screenshot3.png",
-                          "static/img/oop-gameshow-screenshot5.png"]
+            "homepage_img_url": "/static/img/oop-gameshow-screenshot6.png", 
+            "image_urls":["/static/img/oop-gameshow-screenshot5.png",
+                          "/static/img/oop-gameshow-screenshot2.png",
+                          "/static/img/oop-gameshow-screenshot3.png",
+                          "/static/img/oop-gameshow-screenshot4.png"]
 
         },
         {
@@ -46,10 +49,11 @@
             "technologies": ["Javascript", "HTML", "CSS"],
             "live_link": "https://rosieduffy.github.io/public-api-requests/",
             "github_link": "https://github.com/RosieDuffy/public-api-requests",
-            "image_urls":["static/img/public-api-homepage.png", 
-                          "static/img/public-api-screenshot.png",
-                          "static/img/public-api-screenshot2.png",
-                          "static/img/public-api-screenshot3.png"]
+            "homepage_img_url":"/static/img/public-api-homepage.png", 
+            "image_urls":["/static/img/public-api-screenshot4.png",
+                          "/static/img/public-api-screenshot.png",
+                          "/static/img/public-api-screenshot3.png",
+                          "/static/img/public-api-screenshot2.png"]
 
         },
         {
@@ -59,11 +63,11 @@
             "technologies": ["HTML", "Javascript", "CSS"],
             "live_link": "https://rosieduffy.github.io/interactive-form/",
             "github_link": "https://github.com/RosieDuffy/interactive-form",
-            "image_urls":["static/img/interactive-form-homepage.png", 
-                          "static/img/interactive-form-screenshot1.png",
-                          "static/img/interactive-form-screenshot2.png",
-                          "static/img/interactive-form-screenshot3.png",
-                          "static/img/interactive-form-screenshot4.png"]
+            "homepage_img_url": "/static/img/interactive-form-homepage.png", 
+            "image_urls":[ "/static/img/interactive-form-screenshot1.png",
+                          "/static/img/interactive-form-screenshot2.png",
+                          "/static/img/interactive-form-screenshot3.png",
+                          "/static/img/interactive-form-screenshot4.png"]
 
         }
 

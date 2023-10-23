@@ -1,0 +1,10 @@
+extends layout.pug
+
+block content
+
+    h1.errorText= `${err.message} - Status: ${err.status}`
+    
+    nav.nav
+      a(href='/')
+        span &larr;
+        |  Back

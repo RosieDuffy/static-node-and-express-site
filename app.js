@@ -25,19 +25,24 @@ app.get("/project/:id", (req, res) => {
   res.render("project", { project });
 });
 
-// app.use((req, res, next) => {
-//   const err = new Error("Page not found");
-//   err.status = 404;
-//   err.message = "The page you are looking for cannot be found";
-//   res.send(err.status, err.message);
-//   next(err);
-// });
+app.use((req, res, next) => {
+  const err = new Error("Page not found");
+  err.status = 404;
+  err.message = "Sorry, the page you are looking for cannot be found";
+  console.log(err);
+  res.render("page-not-found", { err });
+});
 
-// app.use((err, req, res, next) => {
-//   if (err.status && err.message) {
-//     res.send(err);
-//   }
-//   next();
-// });
+app.use((err, req, res, next) => {
+  if (err.message && err.status) {
+    console.log(err);
+    res.render("error", { err });
+  } else {
+    err.message = "Sorry, something went wrong :/";
+    err.status = 500;
+    console.log(err);
+    res.render("error", { err });
+  }
+});
 
 app.listen(3000);
