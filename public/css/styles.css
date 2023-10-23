@@ -362,3 +362,20 @@ nav a span {
     max-width: 1200px;
   }
 }
+
+/* 
+  Personalised Styles 
+*/
+
+
+.sidebar {
+  text-align: center;
+}
+
+
+.thumbnail-box img{
+  border-radius: 50%;
+}
+
+
+

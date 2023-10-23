@@ -8,24 +8,22 @@
             "technologies": ["Javascript", "HTML", "CSS"],
             "live_link": "https://rosieduffy.github.io/data-pagination-and-filtering/",
             "github_link": "https://github.com/RosieDuffy/data-pagination-and-filtering",
-            "image_urls":["public/img/data-pagination-homepage.png", 
-                          "public/img/data-pagination-screenshot.png",
-                          "public/img/data-pagination-screenshot2.png",
-                          "public/img/data-pagination-screenshot3.png"]
+            "image_urls":["static/img/data-pagination-homepage.png", 
+                          "static/img/data-pagination-screenshot.png",
+                          "static/img/data-pagination-screenshot2.png",
+                          "static/img/data-pagination-screenshot3.png"]
 
         },
         {
             "id":  1,
-            "project_name": "Interactive Form",
-            "description": "Interactive form for users to register for a Full Stack Conference. The site validates user input, providing helpful error messages when the user enters invald information into the form fields. The price of selected events is totalled up and display and the user is prevented from selecting two activities that are at the same day and time. The form will also fail to submit if the correct information isnt entered. ",
-            "technologies": ["HTML", "Javascript", "CSS"],
-            "live_link": "https://rosieduffy.github.io/interactive-form/",
-            "github_link": "https://github.com/RosieDuffy/interactive-form",
-            "image_urls":["public/img/interactive-form-homepage.png", 
-                          "public/img/interactive-form-screenshot1.png",
-                          "public/img/interactive-form-screenshot2.png",
-                          "public/img/interactive-form-screenshot3.png",
-                          "public/img/interactive-form-screenshot4.png"]
+            "project_name": "Random Quote Generator",
+            "description": "Site displaying 8 quotes from comedians at random. As well as being able to click, to refresh the quote, the quotes also automatically refresh every 4 seconds. The background colour of the site also changes to a random colour each time the quote is refreshed, whether it be manually or automatically.",
+            "technologies": ["Javascript", "HTML", "CSS"],
+            "live_link": "https://rosieduffy.github.io/random-quote-generator/",
+            "github_link": "https://github.com/RosieDuffy/random-quote-generator",
+            "image_urls":["static/img/random-quote-generator-homepage.png", 
+                          "static/img/random-quote-generator-screenshot.png",
+                          "static/img/random-quote-generator-screenshot2.png"]
 
         },
         {
@@ -35,10 +33,10 @@
             "technologies": ["Javascript", "HTML", "CSS"],
             "live_link": "https://rosieduffy.github.io/oop-game-show-app/",
             "github_link": "https://github.com/RosieDuffy/oop-game-show-app",
-            "image_urls":["public/img/oop-gameshow-homepage.png", 
-                          "public/img/oop-gameshow-screenshot2.png",
-                          "public/img/oop-gameshow-screenshot3.png",
-                          "public/img/oop-gameshow-screenshot5.png"]
+            "image_urls":["static/img/oop-gameshow-screenshot6.png", 
+                          "static/img/oop-gameshow-screenshot2.png",
+                          "static/img/oop-gameshow-screenshot3.png",
+                          "static/img/oop-gameshow-screenshot5.png"]
 
         },
         {
@@ -48,22 +46,24 @@
             "technologies": ["Javascript", "HTML", "CSS"],
             "live_link": "https://rosieduffy.github.io/public-api-requests/",
             "github_link": "https://github.com/RosieDuffy/public-api-requests",
-            "image_urls":["public/img/public-api-homepage.png", 
-                          "public/img/public-api-screenshot.png",
-                          "public/img/public-api-screenshot2.png",
-                          "public/img/public-api-screenshot3.png"]
+            "image_urls":["static/img/public-api-homepage.png", 
+                          "static/img/public-api-screenshot.png",
+                          "static/img/public-api-screenshot2.png",
+                          "static/img/public-api-screenshot3.png"]
 
         },
         {
             "id":  4,
-            "project_name": "Random Quote Generator",
-            "description": "Site displaying 8 quotes from comedians at random. As well as being able to click, to refresh the quote, the quotes also automatically refresh every 4 seconds. The background colour of the site also changes to a random colour each time the quote is refreshed, whether it be manually or automatically.",
-            "technologies": ["Javascript", "HTML", "CSS"],
-            "live_link": "https://rosieduffy.github.io/random-quote-generator/",
-            "github_link": "https://github.com/RosieDuffy/random-quote-generator",
-            "image_urls":["public/img/random-quote-generator-homepage.png", 
-                          "public/img/random-quote-generator-screenshot.png",
-                          "public/img/random-quote-generator-screenshot2.png"]
+            "project_name": "Interactive Form",
+            "description": "Interactive form for users to register for a Full Stack Conference. The site validates user input, providing helpful error messages when the user enters invald information into the form fields. The price of selected events is totalled up and display and the user is prevented from selecting two activities that are at the same day and time. The form will also fail to submit if the correct information isnt entered. ",
+            "technologies": ["HTML", "Javascript", "CSS"],
+            "live_link": "https://rosieduffy.github.io/interactive-form/",
+            "github_link": "https://github.com/RosieDuffy/interactive-form",
+            "image_urls":["static/img/interactive-form-homepage.png", 
+                          "static/img/interactive-form-screenshot1.png",
+                          "static/img/interactive-form-screenshot2.png",
+                          "static/img/interactive-form-screenshot3.png",
+                          "static/img/interactive-form-screenshot4.png"]
 
         }
 
